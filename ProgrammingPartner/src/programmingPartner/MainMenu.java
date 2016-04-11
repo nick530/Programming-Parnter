@@ -86,10 +86,6 @@ public class MainMenu {
 		mnFile.setMnemonic('F');
 		menuBar.add(mnFile);
 		
-		JMenuItem mntmSave = new JMenuItem("Save");
-		mntmSave.setMnemonic('S');
-		mnFile.add(mntmSave);
-		
 		JMenuItem mntmExit = new JMenuItem("Exit");
 		mntmExit.setMnemonic('x');
 		mnFile.add(mntmExit);
