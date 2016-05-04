@@ -7,18 +7,21 @@ Programming Partner is a simple educational tool to
 be used in educating entry level users on basic java
 coding. It uses a mix of examples with review to aid
 teachers in the instruction of basic coding courses.
+
 -------------
 Requirements
 -------------
 -Must download Java (link provided below)
 -Java download link: https://java.com/en/download/
 -Windows/Mac Operating system
+
 ---------------
 How to Install
 ---------------
 -Download ProgrammingPartner.zip
 -Unzip files into separate folder
 -Run the .jar file within the folder
+
 ----
 FAQ
 ----
