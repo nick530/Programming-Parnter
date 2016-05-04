@@ -88,16 +88,7 @@ public class LoginWindow {
 		frame.setVisible(true);
 	}//End initialize
 	
-	private class CancelButtonKeyListener implements KeyListener{
-		public void keyTyped(KeyEvent e){}
-		public void keyReleased(KeyEvent e){}
-		public void keyPressed(KeyEvent e){
-			if(e.getKeyCode() == KeyEvent.VK_ENTER)
-            {
-				System.exit(0);
-            }
-		}		
-	}//End class CancelButtonKeyListener
+	
 	
 	
 	private class LoginButtonListener implements ActionListener{
@@ -127,6 +118,17 @@ public class LoginWindow {
 			System.exit(0);
 		}//End actionPerformed
 	}//End class CancelButtonListener
+	
+	private class CancelButtonKeyListener implements KeyListener{
+		public void keyTyped(KeyEvent e){}
+		public void keyReleased(KeyEvent e){}
+		public void keyPressed(KeyEvent e){
+			if(e.getKeyCode() == KeyEvent.VK_ENTER)
+            {
+				System.exit(0);
+            }
+		}		
+	}//End class CancelButtonKeyListener
 	
 	private class CloseWindowAdapter extends WindowAdapter{
 		public void windowClosing(WindowEvent we){ 

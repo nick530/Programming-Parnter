@@ -19,9 +19,9 @@ public class LessonSelection {
 	private JFrame frame;
 	private JComboBox comboBoxLesson;
 	private JComboBox comboBoxSection;
-	private String[] lessons = {null, "Lesson One","Lesson Two"};
-	private String[] lessonOneSections = {null, "Section One", "Section Two", "Section Three", "Section Four", "Section Five", "Section Six"};
-	private String[] lessonTwoSections = {null, "Section One", "Section Two", "Section Three"};
+	private String[] lessons = {null, "Lesson One", "Lesson Two"};
+	private String[] lessonOneSections = {null, "Section One", "Section Two"};
+	private String[] lessonTwoSections = {null, "Section One", "Section Two"};
 	private String selectedLesson;
 	private String selectedSection;
 	// Create the Window
@@ -192,7 +192,8 @@ public class LessonSelection {
 				
 				if(selectedLesson != null && selectedSection != null){
 				ProgrammingPartner.selectedLesson = selectedLesson;
-				ProgrammingPartner.selectedSection = selectedSection;	
+				ProgrammingPartner.selectedSection = selectedSection;
+				//ProgrammingPartner.currentCheckpoint;
 				frame.setVisible(false);
 				LessonWindow LessonWindow = new LessonWindow();
 				}

@@ -6,6 +6,7 @@ public class ProgrammingPartner {
 	static String userName;
 	static String selectedLesson;
 	static String selectedSection;
+	static String currentCheckpoint;
 	
 	
 	public static void main(String[] args) {
